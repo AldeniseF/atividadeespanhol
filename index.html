@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad de Español</title>
+</head>
+<body>
+
+<h1>Preguntas y Respuestas</h1>
+
+<p>¿Cómo te llamas?</p>
+<button onclick="mostrar1()">Ver respuesta</button>
+<p id="r1"></p>
+
+<p>¿De dónde eres?</p>
+<button onclick="mostrar2()">Ver respuesta</button>
+<p id="r2"></p>
+
+<script>
+function mostrar1() {
+  document.getElementById("r1").innerHTML = "Me llamo João";
+}
+
+function mostrar2() {
+  document.getElementById("r2").innerHTML = "Soy de Brasil";
+}
+</script>
+
+</body>
+</html>
